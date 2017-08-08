@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/customise_pill_weather_providers_owm_category_title">
+        <Preference android:title="@string/customise_pill_weather_providers_owm_signup_title" android:key="key_customise_pill_weather_providers_owm_signup" android:summary="@string/customise_pill_weather_providers_owm_signup_description" />
+        <EditTextPreference android:title="@string/customise_pill_weather_providers_owm_enter_api_title" android:key="key_customise_pill_weather_providers_owm_enter_api" android:dialogMessage="@string/customise_pill_weather_providers_owm_enter_api_dialog_text" />
+        <Preference android:icon="@drawable/ic_weather_provider_owm_large" android:selectable="false" android:summary="@string/customise_pill_weather_providers_owm_copyright_description" />
+    </PreferenceCategory>
+</PreferenceScreen>

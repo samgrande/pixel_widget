@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/customise_pill_weather_configure_category_title">
+        <SwitchPreference android:title="@string/customise_pill_weather_weather_setting_title" android:key="customise_pill_key_weather_show_weather" android:summary="@string/customise_pill_weather_weather_setting_description" android:defaultValue="false" />
+        <ListPreference android:entries="@array/customise_pill_weather_configure_refresh_period" android:title="@string/customise_pill_weather_configure_refresh_period_title" android:key="customise_pill_key_weather_refresh_period" android:dependency="customise_pill_key_weather_show_weather" android:defaultValue="10800000" android:entryValues="@array/customise_pill_weather_configure_refresh_period_values" />
+        <ListPreference android:entries="@array/customise_pill_weather_configure_temperature_units" android:title="@string/customise_pill_weather_configure_temperature_units_title" android:key="customise_pill_key_weather_temperature_units" android:dependency="customise_pill_key_weather_show_weather" android:defaultValue="@string/customise_pill_weather_configure_temperature_units_default" android:entryValues="@array/customise_pill_weather_configure_temperature_units_values" />
+        <ListPreference android:entries="@array/customise_pill_weather_configure_weather_provider" android:title="@string/customise_pill_weather_configure_weather_provider_title" android:key="customise_pill_key_weather_weather_provider" android:dependency="customise_pill_key_weather_show_weather" android:defaultValue="@string/customise_pill_weather_configure_weather_provider_default" android:entryValues="@array/customise_pill_weather_configure_weather_provider_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/customise_pill_weather_press_action_category_title">
+        <CheckBoxPreference android:title="@string/customise_pill_weather_press_action_open_google_weather_title" android:key="customise_pill_key_weather_open_google_weather" android:summary="@string/customise_pill_weather_press_action_open_google_weather_description" android:dependency="customise_pill_key_weather_show_weather" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textStyle="bold" android:id="@id/change_log_title" android:background="@android:color/transparent" android:paddingTop="16.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.6" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:id="@id/change_log_content" android:background="@android:color/transparent" android:paddingTop="16.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.6" />
+</LinearLayout>

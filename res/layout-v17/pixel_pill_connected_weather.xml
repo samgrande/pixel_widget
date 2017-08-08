@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/widget_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/linearLayout" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/frameGooglePill" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_toEndOf="@id/frameGooglePill" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imgWeather" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/weather_unknown" />
+        <TextView android:textSize="28.0dip" android:textColor="#ffffffff" android:gravity="start|center" android:id="@id/txtTemperature" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="sans-serif-light" android:paddingEnd="8.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="end" android:id="@id/txtDate" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/frameGooglePill" android:layout_below="@id/linearLayout" android:textAllCaps="true" android:paddingEnd="8.0dip" android:layout_toEndOf="@id/frameGooglePill" />
+    <FrameLayout android:id="@id/frameGooglePill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center" android:id="@id/imgGooglePillConnector" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/google_pill_connected_connector_base" />
+        <ImageView android:layout_gravity="center" android:id="@id/imgGooglePillBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/google_pill_connected_background_transparent" />
+        <ImageView android:layout_gravity="center" android:id="@id/imgGooglePillLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/google_pill_connected_logo_original" />
+    </FrameLayout>
+</RelativeLayout>

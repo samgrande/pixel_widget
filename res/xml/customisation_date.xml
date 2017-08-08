@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/customise_pill_date_press_action_category_title">
+        <CheckBoxPreference android:title="@string/customise_pill_date_press_action_open_google_calendar_title" android:key="customise_pill_key_date_open_google_calendar" android:summary="@string/customise_pill_date_press_action_open_google_calendar_description" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

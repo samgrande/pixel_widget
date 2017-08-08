@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/customise_pill_location_location_category_title">
+        <SwitchPreference android:title="@string/customise_pill_location_location_always_use_title" android:key="customise_pill_location_use_device_location" android:summary="@string/customise_pill_location_location_always_use_description" android:defaultValue="true" android:disableDependentsState="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/customise_pill_location_data_category_title" android:dependency="customise_pill_location_use_device_location">
+        <Preference android:title="@string/customise_pill_location_data_store_title" android:key="customise_pill_location_save_location" />
+        <Preference android:title="@string/customise_pill_location_data_delete_title" android:key="customise_pill_location_delete_location" android:summary="@string/customise_pill_location_data_delete_description" />
+    </PreferenceCategory>
+</PreferenceScreen>

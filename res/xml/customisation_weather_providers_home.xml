@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/customise_pill_weather_providers_category_title">
+        <Preference android:icon="@drawable/ic_weather_provider_google" android:title="@string/customise_pill_weather_providers_google_title" android:key="customise_pill_weather_providers_home_google" />
+        <Preference android:icon="@drawable/ic_weather_provider_owm" android:title="@string/customise_pill_weather_providers_owm_title" android:key="customise_pill_weather_providers_home_owm" />
+        <Preference android:icon="@drawable/ic_weather_provider_wu" android:title="@string/customise_pill_weather_providers_wu_title" android:key="customise_pill_weather_providers_home_wu" />
+    </PreferenceCategory>
+</PreferenceScreen>

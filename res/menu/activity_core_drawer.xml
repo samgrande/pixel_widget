@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/nav_drawer_group_home" android:checkableBehavior="single">
+        <item android:id="@id/nav_home" android:checked="true" android:title="@string/nav_drawer_home" />
+        <item android:id="@id/nav_customise_pill" android:title="@string/nav_drawer_customise_pill" />
+    </group>
+    <group android:id="@id/nav_drawer_group_settings" android:checkableBehavior="single">
+        <item android:id="@id/nav_settings" android:title="@string/nav_drawer_settings" />
+    </group>
+</menu>

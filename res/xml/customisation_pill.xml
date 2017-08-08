@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/customise_pill_pill_colour_category_title">
+        <com.rarepebble.colorpicker.ColorPreference android:title="@string/customise_pill_pill_colour_background_title" android:key="customise_pill_key_colour_background" android:summary="@string/customise_pill_pill_colour_background_description" app:colorpicker_selectNoneButtonText="@string/customise_pill_pill_colour_background_button_original" />
+        <com.rarepebble.colorpicker.ColorPreference android:title="@string/customise_pill_pill_colour_logo_title" android:key="customise_pill_key_colour_logo" android:summary="@string/customise_pill_pill_colour_logo_description" app:colorpicker_selectNoneButtonText="@string/customise_pill_pill_colour_logo_button_original" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/customise_pill_pill_edge_category">
+        <CheckBoxPreference android:title="@string/customise_pill_pill_edge_add_title" android:key="customise_pill_pill_add_edge" android:summary="@string/customise_pill_pill_edge_add_description" android:defaultValue="false" />
+        <com.rarepebble.colorpicker.ColorPreference android:title="@string/customise_pill_pill_edge_colour_title" android:key="customise_pill_key_colour_edge" android:summary="@string/customise_pill_pill_edge_colour_description" android:dependency="customise_pill_pill_add_edge" app:colorpicker_selectNoneButtonText="@string/customise_pill_pill_edge_colour_button_original" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/customise_pill_pill_press_action_category">
+        <ListPreference android:entries="@array/customise_pill_pill_press_action_actions" android:title="@string/customise_pill_pill_press_action_title" android:key="customise_pill_pill_press_action" android:defaultValue="@string/customise_pill_pill_press_action_values_default" android:entryValues="@array/customise_pill_pill_press_action_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/customise_pill_pill_size_category">
+        <CheckBoxPreference android:title="@string/customise_pill_pill_size_reduce_size_title" android:key="customise_pill_pill_reduce_size" android:summary="@string/customise_pill_pill_size_reduce_size_description" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

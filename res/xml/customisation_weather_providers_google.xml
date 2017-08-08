@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/customise_pill_weather_providers_google_category_title">
+        <Preference android:selectable="false" android:summary="@string/customise_pill_weather_providers_google_info_description" />
+        <Preference android:icon="@drawable/ic_weather_provider_google_large" android:selectable="false" android:summary="@string/customise_pill_weather_providers_google_copyright_description" />
+    </PreferenceCategory>
+</PreferenceScreen>

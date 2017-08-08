@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:enabled="false" android:title="@string/customise_pill_weather_refresh_info_category_title" android:key="customise_pill_refresh_info_category">
+        <Preference android:title="@string/customise_pill_weather_refresh_info_last_check_title" android:key="customise_pill_refresh_info_last_check" />
+        <Preference android:title="@string/customise_pill_weather_refresh_info_last_refresh_title" android:key="customise_pill_refresh_info_last_refresh" />
+        <Preference android:title="@string/customise_pill_weather_refresh_info_last_weather_provider_title" android:key="customise_pill_refresh_info_last_weather_provider" />
+    </PreferenceCategory>
+</PreferenceScreen>

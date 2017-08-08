@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="change_log">
+        <item>@array/ver602002</item>
+        <item>@array/ver602</item>
+        <item>@array/ver6</item>
+        <item>@array/weatherloc</item>
+        <item>@array/new_</item>
+        <item>@array/improvements</item>
+        <item>@array/fixes</item>
+    </array>
+    <string-array name="customise_pill_pill_press_action_actions">
+        <item>Google Now</item>
+        <item>Google Search</item>
+        <item>Google Voice Search</item>
+        <item>Nothing</item>
+    </string-array>
+    <string-array name="customise_pill_pill_press_action_values">
+        <item>google_now</item>
+        <item>google_search</item>
+        <item>google_voice_search</item>
+        <item>nothing</item>
+    </string-array>
+    <string-array name="customise_pill_weather_configure_refresh_period">
+        <item>Every 30 minutes</item>
+        <item>Every 1 hour</item>
+        <item>Every 2 hours</item>
+        <item>Every 3 hours</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+        <item>Every day</item>
+    </string-array>
+    <string-array name="customise_pill_weather_configure_refresh_period_values">
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>21600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+    <string-array name="customise_pill_weather_configure_temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="customise_pill_weather_configure_temperature_units_values">
+        <item>celsius</item>
+        <item>fahrenheit</item>
+    </string-array>
+    <string-array name="customise_pill_weather_configure_weather_provider">
+        <item>Google Awareness</item>
+        <item>Open Weather Map</item>
+        <item>Weather Underground</item>
+    </string-array>
+    <string-array name="customise_pill_weather_configure_weather_provider_values">
+        <item>google_awareness</item>
+        <item>open_weather_map</item>
+        <item>weather_underground</item>
+    </string-array>
+    <string-array name="fixes">
+        <item>Fixes</item>
+        <item>Finally found issue with weather not updating in the background.</item>
+        <item>Fixed issue with temperature text not changing colour.</item>
+    </string-array>
+    <string-array name="improvements">
+        <item>Improvements</item>
+        <item>Further battery usage optimisations.</item>
+    </string-array>
+    <string-array name="licenses">
+        <item>Android Annotations Support Library</item>
+        <item>Android Design Support Library</item>
+        <item>Android SDK</item>
+        <item>Android Support Library v7: AppCompat</item>
+        <item>Android Support Library v7: CardView</item>
+        <item>Google Material Design Icons</item>
+        <item>HSV-Alpha Color Picker</item>
+        <item>Material Dialogs</item>
+        <item>Version Info Material Dialog</item>
+    </string-array>
+    <string-array name="new_">
+        <item>New</item>
+        <item>New UI.</item>
+        <item>Support for Weather Underground API.</item>
+        <item>Support for saving location.</item>
+    </string-array>
+    <string-array name="translators">
+        <item>Portuguese (Brazilian) [Gustavo Oliveira]</item>
+        <item>Swedish [Peter Norman]</item>
+    </string-array>
+    <string-array name="ver6">
+        <item>Version 6!</item>
+        <item>Version 6 has the app rebuilt from the ground up, hence a new fresh UI!</item>
+        <item>The weather not refreshing in the background has finally been fixed! Took me a while to experiment to see what the actual issue was :)</item>
+        <item>Version 6 brings many new features, improvements and specific changes to how the weather works with location.</item>
+        <item>Please read the change log carefully to understand the changes.</item>
+    </string-array>
+    <string-array name="ver602">
+        <item>Version 6.0.02</item>
+        <item>Fixed issue with weather not downloading if GPS was used directly for Open Weather Map and Weather Underground.</item>
+    </string-array>
+    <string-array name="ver602002">
+        <item>Version 6.0.02.002</item>
+        <item>Fixed issue with widget being disappearing if more than one was placed.</item>
+    </string-array>
+    <string-array name="weatherloc">
+        <item>Weather and Location Changes</item>
+        <item>Added Weather Underground API support - API key required, read below.</item>
+        <item>To use the Weather Underground API, you must sign-up to their services and enter the api key in the Weather Providers settings in the Pill Customisation.</item>
+        <item>You can now enter your own api key for Open Weather Map. The app does include a default api key but it is not recommended to use as the daily api limit is regulary used up.</item>
+        <item>To use the default api key, enter # (without the quotes) as the api key in Open Weather Map settings.</item>
+        <item>"You can now save your location in the app so that you don't have to keep GPS turned on to get the weather. Configure this in the Location settings."</item>
+        <item>NOTE: THIS DOES NOT WORK WITH GOOGLE AWARENESS, AS THE API DOES NOT WORK WITHOUT GPS.</item>
+    </string-array>
+</resources>

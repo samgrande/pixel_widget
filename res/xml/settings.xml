@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_change_log">
+        <SwitchPreference android:title="@string/pref_change_log_title" android:key="pref_key_change_log_enable_change_log" android:summary="@string/pref_change_log_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_about">
+        <Preference android:title="@string/pref_about_developer_title" android:summary="@string/pref_about_developer_summary" />
+        <Preference android:title="@string/pref_about_translators_title" android:key="pref_key_about_translators" android:summary="@string/pref_about_translators_summary" />
+        <Preference android:title="@string/pref_about_open_source_licenses_title" android:key="pref_key_about_open_source_licenses" android:summary="@string/pref_about_open_source_licenses_summary" />
+        <Preference android:title="@string/pref_about_version_title" android:key="pref_key_about_version" android:summary="@string/pref_about_version_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

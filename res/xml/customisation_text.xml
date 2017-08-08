@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/customise_pill_text_colour_category_title">
+        <com.rarepebble.colorpicker.ColorPreference android:title="@string/customise_pill_text_colour_title" android:key="customise_pill_key_colour_text" android:summary="@string/customise_pill_text_colour_description" app:colorpicker_selectNoneButtonText="@string/customise_pill_text_colour_button_original" />
+    </PreferenceCategory>
+</PreferenceScreen>

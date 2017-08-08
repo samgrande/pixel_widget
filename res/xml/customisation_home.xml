@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/customise_pill_home_customisation_category_title">
+        <Preference android:icon="@drawable/ic_customise_pill_date" android:title="@string/customise_pill_home_customisation_date_title" android:key="customise_pill_home_customisation_date" />
+        <Preference android:icon="@drawable/ic_customise_pill_pill" android:title="@string/customise_pill_home_customisation_pill_title" android:key="customise_pill_home_customisation_pill" />
+        <Preference android:icon="@drawable/ic_customise_pill_text" android:title="@string/customise_pill_home_customisation_text_title" android:key="customise_pill_home_customisation_text" />
+        <Preference android:icon="@drawable/ic_customise_pill_weather" android:title="@string/customise_pill_home_customisation_weather_title" android:key="customise_pill_home_customisation_weather" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/customise_pill_home_customisation_weather_category_title" />
+    <Preference android:icon="@drawable/ic_customise_pill_location" android:title="@string/customise_pill_home_customisation_weather_location_title" android:key="customise_pill_home_customisation_location" />
+    <Preference android:icon="@drawable/ic_customise_pill_refresh_info" android:title="@string/customise_pill_home_customisation_refresh_info_title" android:key="customise_pill_home_customisation_refresh_info" />
+    <Preference android:icon="@drawable/ic_customise_pill_weather_providers" android:title="@string/customise_pill_home_customisation_weather_providers_title" android:key="customise_pill_home_customisation_weather_providers" />
+</PreferenceScreen>
